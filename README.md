@@ -21,10 +21,10 @@ Sistema de Venda de Livros (sebo)
 
 ## Relatório
 
-[Link para o relatório](./Relatório Trabalho 2 - Sistemas Distribuídos.pdf)
+ Teste [Link para o relatório](relatorioSD2.pdf)
 
 ## Para testar
 
-- Executar "rmiregistry" no terminal para registrar o RMI
+- Executar "rmiregistry &" no terminal para registrar o RMI
 - Executar RMIServer
 - Executar TestRMI
