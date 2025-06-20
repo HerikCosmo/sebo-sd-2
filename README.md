@@ -21,7 +21,7 @@ Sistema de Venda de Livros (sebo)
 
 ## Relatório
 
- Teste [Link para o relatório](relatorioSD2.pdf)
+[Link para o relatório](relatorioSD2.pdf)
 
 ## Para testar
 
