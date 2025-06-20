@@ -18,3 +18,13 @@ Sistema de Venda de Livros (sebo)
   - /rmi - Tem as classes de implementação do RMI (Interface, Implementação, Servidor, Cliente e Teste)
     - /rmi/protocol - Classes de estrutura das mensagens de requisição/resposta e utilitário para serialização do JSON
   - /service - Serviços do sistema
+
+## Relatório
+
+[Link para o relatório](./Relatório Trabalho 2 - Sistemas Distribuídos.pdf)
+
+## Para testar
+
+- Executar "rmiregistry" no terminal para registrar o RMI
+- Executar RMIServer
+- Executar TestRMI
