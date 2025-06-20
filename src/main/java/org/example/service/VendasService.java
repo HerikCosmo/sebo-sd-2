@@ -37,21 +37,4 @@ public class VendasService {
       return "Este produto não pode ser trocado";
     }
   }
-
-  // ✅ Método para venda
-  public boolean realizarVenda(String id) {
-    return sellProduct(id);
-  }
-
-  // ✅ Retorna produtos vendidos
-  public List<Produto> listarVendidos() {
-    return vendidos;
-  }
-
-  // ✅ Soma preços dos produtos vendidos
-  public double calcularTotal() {
-    return vendidos.stream()
-        .mapToDouble(Produto::getPrice)
-        .sum();
-  }
 }

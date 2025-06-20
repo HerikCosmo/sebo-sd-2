@@ -44,7 +44,6 @@ public class TestRMI {
         if (searchReply != null && "SUCCESS".equals(searchReply.getStatus()) && searchReply.getResult() != null) {
             try {
 
-                // Desserializa uma lista de Product. Necessita TypeReference para tipos genéricos.
                 List<Produto> searchResults = JsonMarshaller.unmarshal(searchReply.getResult(), new TypeReference<List<Produto>>() {});
                 if (searchResults != null) {
                     searchResults.forEach(System.out::println);

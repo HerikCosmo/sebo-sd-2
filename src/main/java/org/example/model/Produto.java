@@ -1,22 +1,7 @@
 package org.example.model;
 
-import com.fasterxml.jackson.annotation.JsonSubTypes;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-
 import java.io.Serializable;
 
-//@JsonTypeInfo(
-//        use = JsonTypeInfo.Id.NAME,
-//        include = JsonTypeInfo.As.PROPERTY,
-//        property = "productType"
-//)
-//@JsonSubTypes({
-//        @JsonSubTypes.Type(value = Livro.class, name = "BOOK"),
-//        @JsonSubTypes.Type(value = Apostila.class, name = "COURSE_MATERIAL"),
-//        @JsonSubTypes.Type(value = CD.class, name = "AUDIO_PRODUCT"),
-//        @JsonSubTypes.Type(value = DVD.class, name = "VIDEO_PRODUCT"),
-//        @JsonSubTypes.Type(value = EBook.class, name = "E_BOOK")
-//})
 public class Produto implements Serializable {
     private static final long serialVersionUID = 1L;
     private String id;

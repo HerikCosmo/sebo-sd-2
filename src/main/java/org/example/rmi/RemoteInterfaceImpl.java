@@ -20,7 +20,7 @@ public class RemoteInterfaceImpl extends UnicastRemoteObject implements RemoteIn
     private static final long serialVersionUID = 1L;
     private ProdutoService productService;
     private VendasService salesService;
-    private final ObjectMapper objectMapper; // NOVO: Instância do ObjectMapper
+    private final ObjectMapper objectMapper;
 
     public RemoteInterfaceImpl(ProdutoService productService, VendasService salesService) throws RemoteException {
         super();
